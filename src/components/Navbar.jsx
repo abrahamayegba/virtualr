@@ -25,13 +25,13 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <div className="hidden lg:flex justify-center space-x-12 items-center">
-            <a href="#" className="py-2 px-3 border rounded-md">
+          <div className="hidden lg:flex justify-center space-x-8 items-center">
+            <a href="#" className="py-2 px-5 border rounded-md">
               Sign In
             </a>
             <a
               href="#"
-              className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
+              className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-5 rounded-md"
             >
               Create an account
             </a>
@@ -51,8 +51,11 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            <div className="flex space-x-6">
-              <a href="#" className="py-2 px-3 border rounded-md">
+            <div className="flex flex-col justify-center md:flex-row gap-y-5">
+              <a
+                href="#"
+                className="py-2 px-3 border rounded-md text-center w-full"
+              >
                 Sign In
               </a>
               <a

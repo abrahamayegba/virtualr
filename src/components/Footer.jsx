@@ -49,6 +49,17 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+      <p className="text-xs text-n-4 lg:block mt-8">
+        © {new Date().getFullYear()}. Built by
+        <a
+          target="_blank"
+          href="https://github.com/abrahamayegba"
+          className="ml-1 underline"
+        >
+          Abraham Ayegba
+        </a>
+        . All rights reserved.
+      </p>
     </footer>
   );
 };

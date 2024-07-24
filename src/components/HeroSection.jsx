@@ -16,10 +16,10 @@ const HeroSection = () => {
         intuitive development tools. Get started today and turn your imagination
         into immersive reality!
       </p>
-      <div className="flex justify-center my-10">
+      <div className="flex justify-center my-10 flex-col md:flex-row gap-y-5">
         <a
           href="#"
-          className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
+          className="bg-gradient-to-r text-center from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
         >
           Start for free
         </a>
